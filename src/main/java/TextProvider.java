@@ -11,6 +11,6 @@ public class TextProvider {
     }
 
     public static String[] getSentences(){
-        return getText().split(".");
+        return getText().split("\\.");
     }
 }
